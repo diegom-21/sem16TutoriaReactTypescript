@@ -20,7 +20,7 @@ Aplicación web en React utilizando TypeScript para renderizar una serie de tarj
 
 4. **Componente de Libros (Libros):**
    - Se creó un componente Libros que recorre el array biblioteca y renderiza una tarjeta por cada libro utilizando el componente Card.
-   ![Libros](screenshots/Libros.jpg)
+    ![Libros](screenshots/Libros.jpg)
 
 
 5. **Ejecución aplicación:**
