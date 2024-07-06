@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,601;1,601&display=swap');
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.biblioteca {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+.text-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 23px;
+}
+
+.text-p {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 23px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ddd;  
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-body {
+  font-size: 14px;
+}
